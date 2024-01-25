@@ -4,10 +4,14 @@ import com.example.helloworld.request.UserModel;
 import com.example.helloworld.request.UserQueryModel;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Example;
 import org.springframework.util.ObjectUtils;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
+@CrossOrigin
 @RequestMapping("/users")
 public class UserController {
 
@@ -15,14 +19,22 @@ public class UserController {
     private UserRepository userRepository;
     private ModelMapper modelMapper = new ModelMapper();
 
+//    @GetMapping
+//    public User loginUser(UserQueryModel userQueryModel) {
+//        User user = modelMapper.map(userQueryModel, User.class);
+//        User existingUser = userRepository.findByUserName(user.getUserName());
+//        if (ObjectUtils.isEmpty(existingUser)) {
+//            throw new NotFoundException("No user exists with given search criteria.", "USER_NOT_FOUND_EXCEPTION", null);
+//        }
+//        return existingUser;
+//    }
+
     @GetMapping
-    public User loginUser(UserQueryModel userQueryModel) {
+    public List<User> getUsers(UserQueryModel userQueryModel) {
         User user = modelMapper.map(userQueryModel, User.class);
-        User existingUser = userRepository.findByUserName(user.getUserName());
-        if (ObjectUtils.isEmpty(existingUser)) {
-            throw new NotFoundException("No user exists with given search criteria.", "USER_NOT_FOUND_EXCEPTION", null);
-        }
-        return existingUser;
+        Example userExample = Example.of(user);
+        List<User> users = userRepository.findAll(userExample);
+        return users;
     }
 
     @PostMapping()
