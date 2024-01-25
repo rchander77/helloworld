@@ -1,0 +1,122 @@
+[
+  {
+    "id": 2,
+    "name": "Buffalo Wild Wings",
+    "address": "4408 16th St",
+    "state": "IL",
+    "city": "Moline",
+    "manager": "Sam",
+    "phone": "(309) 757-0774",
+    "email": "order@dominos.com",
+    "food": "burgers",
+    "status": "available"
+  },
+  {
+    "id": 3,
+    "name": "Dairy Queen Grill & Chill",
+    "address": "2263 7th St",
+    "state": "IL",
+    "city": "Silvis",
+    "manager": "Danny",
+    "phone": "(309) 796-4641",
+    "email": "order@dairyqueen.com",
+    "food": "fast-food",
+    "status": "available"
+  },
+  {
+    "id": 4,
+    "name": "Deerfield Family Restaurant",
+    "address": "2215 John Deere Rd",
+    "state": "IL",
+    "city": "East Moline",
+    "manager": "Samuel",
+    "phone": "(309) 792-3900",
+    "email": "order@deerfieldfamily.com",
+    "food": "Sandwich",
+    "status": "available"
+  },
+  {
+    "id": 6,
+    "name": "Rudy's Tacos",
+    "address": "1108 Avenue of the Cities",
+    "state": "IL",
+    "city": "East Moline",
+    "manager": "Austin Mount",
+    "phone": "(309) 281-1422",
+    "email": "order@rudystacos.com",
+    "food": "nachos and burritos",
+    "status": "available"
+  },
+  {
+    "id": 1,
+    "name": "Domino's Pizza",
+    "address": "435 Avenue of the Cities",
+    "state": "IL",
+    "city": "East Moline",
+    "manager": "Marry",
+    "phone": "(309) 792-0030",
+    "email": "order@dominos.com",
+    "food": "pizza",
+    "status": "available"
+  },
+  {
+    "id": 5,
+    "name": "Burger King",
+    "address": "1222 42nd Ave",
+    "state": "IL",
+    "city": "East Moline",
+    "manager": "Austin Mount",
+    "phone": "(309) 281-1422",
+    "email": "order@bk.com",
+    "food": "burgers and French Fries",
+    "status": "available"
+  },
+  {
+    "id": 7,
+    "name": "KFC",
+    "address": "1170 42nd Ave",
+    "state": "IL",
+    "city": "East Moline",
+    "manager": "Austin Mount",
+    "phone": "(309) 281-1422",
+    "email": "order@kfc.com",
+    "food": "chicken nuggets",
+    "status": "available"
+  },
+  {
+    "id": 8,
+    "name": "Indian Cafe",
+    "address": "669 Avenue of the Cities",
+    "state": "IL",
+    "city": "East Moline",
+    "manager": "Austin Mount",
+    "phone": "(309) 912-7604",
+    "email": "order@ic.com",
+    "food": "butter chicken",
+    "status": "available"
+  },
+  {
+    "id": 9,
+    "name": "Subway",
+    "address": "681 Avenue of the Cities",
+    "state": "IL",
+    "city": "East Moline",
+    "manager": "Richard",
+    "phone": "(309) 912-7604",
+    "email": "order@subway.com",
+    "food": "sandwiches and breads",
+    "status": "available"
+  },
+  {
+    "id": 10,
+    "name": "888 Bistro",
+    "address": "633 Avenue of the Cities",
+    "state": "IL",
+    "city": "East Moline",
+    "manager": "Richard",
+    "phone": "(309) 203-1986",
+    "email": "order@888.com",
+    "food": "Soda and Salad",
+    "status": "available"
+  }
+]
